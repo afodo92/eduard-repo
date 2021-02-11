@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.5.0.202102090518">
+<testCase version="8.5.0.202102081912">
     <general>
         <language>Python</language>
     </general>
@@ -39,6 +39,12 @@
                 <item guid="d3bd3ad3-bdae-4949-ac71-85cd26b6e373" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;again changed&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="aed1dc2a-510e-4563-b255-47b6dae3f3c2" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;again changed 2&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
