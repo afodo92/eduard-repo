@@ -6,21 +6,15 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="22a15bf1-16cc-4ca3-bcc2-513b2264dc53" action="eval" useFieldsInCommand="false">
+                <item guid="20199a13-3bab-49af-8e52-6e531139428d" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Hello World&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="c47ba430-6883-457d-ae0f-94db328cd611" action="eval" useFieldsInCommand="false">
+                <item guid="cfbf4cc7-190b-4e7b-9b44-2b4ceb2e8a78" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;My Changes&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="5ac560b1-cc83-4269-a755-a290d3465254" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;My New Changes&apos;)</body>
+                        <body>print(&apos;New Line&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
