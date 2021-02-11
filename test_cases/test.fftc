@@ -12,6 +12,12 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="c47ba430-6883-457d-ae0f-94db328cd611" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;New Step Here&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
             </steps>
         </item>
     </procedures>
