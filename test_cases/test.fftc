@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.5.0.202102090518">
+<testCase version="8.5.0.202102081912">
     <general>
         <language>Python</language>
     </general>
@@ -14,7 +14,7 @@
                 </item>
                 <item guid="4ea23d30-f86f-41a2-b8c9-1768f94e95e0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User 1 modification&apos;)</body>
+                        <body>print(&apos;User 1 modification New New&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
