@@ -8,11 +8,7 @@
             <steps>
                 <item guid="20199a13-3bab-49af-8e52-6e531139428d" action="eval" useFieldsInCommand="false">
                     <command>
-<<<<<<< HEAD
                         <body>print(&apos;Hello World user1 final change&apos;)</body>
-=======
-                        <body>print(&apos;Hello World yes yes final change&apos;)</body>
->>>>>>> branch 'master' of https://github.com/afodo92/eduard-repo.git
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
