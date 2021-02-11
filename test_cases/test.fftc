@@ -12,6 +12,18 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="c47ba430-6883-457d-ae0f-94db328cd611" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;My Changes&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="5ac560b1-cc83-4269-a755-a290d3465254" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;My New Changes&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
             </steps>
         </item>
     </procedures>
