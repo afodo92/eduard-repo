@@ -14,7 +14,7 @@
                 </item>
                 <item guid="4ea23d30-f86f-41a2-b8c9-1768f94e95e0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User 1 New stuff&apos;)</body>
+                        <body>print(&apos;User 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
