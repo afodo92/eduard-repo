@@ -30,6 +30,12 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="d3bd3ad3-bdae-4949-ac71-85cd26b6e373" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;again changed&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
             </steps>
         </item>
     </procedures>
