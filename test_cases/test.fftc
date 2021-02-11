@@ -36,12 +36,6 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="9864a995-b602-4a0d-bb7f-6233ac2d2a44" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;New Line 2&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
             </steps>
         </item>
     </procedures>
