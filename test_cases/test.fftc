@@ -12,6 +12,12 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="abbf31ff-011d-42a4-923a-c1faec2904e5" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;New Testing Line&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
                 <item guid="cfbf4cc7-190b-4e7b-9b44-2b4ceb2e8a78" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;New Line&apos;)</body>
