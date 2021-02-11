@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.5.0.202102090518">
+<testCase version="8.5.0.202102081912">
     <general>
         <language>Python</language>
     </general>
@@ -8,7 +8,7 @@
             <steps>
                 <item guid="20199a13-3bab-49af-8e52-6e531139428d" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Hello World&apos;)</body>
+                        <body>print(&apos;Hello World AAAAAAAAAAAAAAAAAAAa&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
