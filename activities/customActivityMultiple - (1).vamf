@@ -1,7 +1,7 @@
 {
    "name":"NewName Multiple 1",
    "shortDescription": "Activity represents a demo on some markdown elements",
-   "icon":"/activity/customActivityManual.svg",
+   "icon":"customActivityManual.svg",
    "descriptionMarkdown":"customActivityManual.md",
    "topology": [{
       "name": "Velocity Cluster",
