@@ -8,7 +8,7 @@
             <steps>
                 <item guid="20199a13-3bab-49af-8e52-6e531139428d" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Hello World&apos;)</body>
+                        <body>print(&apos;This line was changed on master externally&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
