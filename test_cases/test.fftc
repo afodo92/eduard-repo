@@ -20,19 +20,19 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting line&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="fb466b5a-342e-4793-b853-7a44c28f8a24" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;local delete line&apos;)</body>
+                        <body>print(&apos;conflicting line - local edit&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;master delete line&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="47afe51d-e6d2-4113-9862-201050e89bf0" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;local add line&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
