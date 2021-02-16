@@ -26,13 +26,13 @@
                 </item>
                 <item guid="fb466b5a-342e-4793-b853-7a44c28f8a24" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;New Line&apos;)</body>
+                        <body>print(&apos;master branch&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;New Line&apos;)</body>
+                        <body>print(&apos;master branch&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
