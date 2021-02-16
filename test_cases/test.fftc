@@ -26,13 +26,13 @@
                 </item>
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;master delete line&apos;)</body>
+                        <body>print(&apos;change 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="47afe51d-e6d2-4113-9862-201050e89bf0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;local add line&apos;)</body>
+                        <body>print(&apos;change 2&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
