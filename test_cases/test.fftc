@@ -41,7 +41,7 @@
                 </item>
                 <item guid="47afe51d-e6d2-4113-9862-201050e89bf0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;initial version&apos;)</body>
+                        <body>print(&apos;local master branch edit&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
