@@ -35,17 +35,13 @@
                 </item>
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
-<<<<<<< HEAD
                         <body>print(&apos;change on master branch&apos;)</body>
-=======
-                        <body>print(&apos;change on local_branch branch&apos;)</body>
->>>>>>> refs/heads/local_branch
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="47afe51d-e6d2-4113-9862-201050e89bf0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;change master 22&apos;)</body>
+                        <body>print(&apos;initial version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
