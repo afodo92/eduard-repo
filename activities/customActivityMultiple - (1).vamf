@@ -4,7 +4,7 @@
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"customActivityManual.md",
    "topology": [{
-      "name": "Velocity Cluster",
+      "name": "Velocity Cluster 2",
       "actionTitle":"Reserve",
       "description": "Immediate reservation of two VMs Velocity VM and VDS VM",
       "reservationDuration":"60",
