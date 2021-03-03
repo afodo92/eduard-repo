@@ -1,7 +1,7 @@
 {
    "name":"Custom Activity 2",
    "shortDescription": "Test Activity on eduard-repo in master branch",
-   "icon":"/activity/customActivityManual.svg",
+   "icon":"customActivityManual.svg",
    "descriptionMarkdown":"customActivityManual.md",
    "topology": [{
       "name": "Velocity Cluster",
