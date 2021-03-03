@@ -1,0 +1,14 @@
+{
+   "name":"UpgradeActivity",
+   "shortDescription": "Test Activity For Upgrade",
+   "icon":"",
+   "descriptionMarkdown":"UpgradeActivity.md",
+   "topology": [
+{
+      "name": "UpgradeTopology_PC",
+      "actionTitle":"Reserve",
+      "description": "Create an immediate reservation on the topology",
+      "reservationDuration":""
+    }]
+}
+
