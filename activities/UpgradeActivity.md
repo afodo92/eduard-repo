@@ -1,4 +1,4 @@
-# Text formats example
+# Text formats
 
 _This is sample italic text_  
 **This is sample bold text**  
@@ -18,6 +18,7 @@ _This is sample italic text_
 [Hyperlink](https://www.google.com)  
 [Hyperlink with **bold** and _italic_ words](www.google.com)  
 Please access the following [link](www.google.com)  
+Test Velocity [link](schedule/reservations)  
 
 # References
 
@@ -28,7 +29,10 @@ This is a [link][reference-2] to reference-2
 
 ![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg)  
 ![Image with reference][reference-3]  
-![Image from file](/activity/mars.jpg)
+![Image from file](/activity/bmp_image.bmp)  
+![Image from file](/activity/test.gif)  
+![Image from file](/activity/customActivity2.svg)  
+![Image from file](/activity/test.jpeg) 
 
 # Videos
 
@@ -84,3 +88,4 @@ Paragraph line 2
 [reference-1]: www.google.com
 [reference-2]: www.youtube.com
 [reference-3]: https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg?interpolation=lanczos-none&fit=around|392:261
+
