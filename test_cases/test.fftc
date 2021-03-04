@@ -27,21 +27,21 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;Added New Line in Master&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting line - master branch&apos;)</body>
+                        <body>print(&apos;conflicting line - master branch 111&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;change on local branch&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="47afe51d-e6d2-4113-9862-201050e89bf0" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;local master branch edit 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
