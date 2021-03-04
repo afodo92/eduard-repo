@@ -41,7 +41,13 @@
                 </item>
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;change on local branch 222&apos;)</body>
+                        <body>print(&apos;change on local branch&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;new step added in local branch&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
