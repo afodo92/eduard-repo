@@ -39,12 +39,6 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="2cb25f14-41ef-4f9d-8058-3ece598d754a" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;new line on master&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
             </steps>
         </item>
     </procedures>
