@@ -15,9 +15,9 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="20199a13-3bab-49af-8e52-6e531139428d" action="eval" useFieldsInCommand="false">
+                <item guid="4ea23d30-f86f-41a2-b8c9-1768f94e95e0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;This line was changed locally from iTest&apos;)</body>
+                        <body>print(&apos;User 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -36,6 +36,12 @@
                 <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;change on master new branch&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;new step added in local branch&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
