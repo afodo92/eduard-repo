@@ -418,6 +418,7 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                                                     </item>
                                                 </analysisRules>
                                                 <storeResponseAt>testStore2</storeResponseAt>
+                                                <storeResponseText>true</storeResponseText>
                                             </postProcessing>
                                             <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                                         </item>
@@ -7339,6 +7340,19 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                             </item>
                         </analysisRules>
                     </postProcessing>
+                    <nestedSteps>
+                        <item guid="55b53c68-69e5-4618-b55f-ca6470d6a013" action="comment" useFieldsInCommand="false">
+                            <command>
+                                <body>Call cleanup procedure</body>
+                            </command>
+                            <nestedSteps>
+                                <item guid="e0ec79f2-f9df-4e9f-a483-7b4fcd2767e2" action="cleanup" session="VelocityPython" useFieldsInCommand="false">
+                                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                </item>
+                            </nestedSteps>
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        </item>
+                    </nestedSteps>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
             </steps>
