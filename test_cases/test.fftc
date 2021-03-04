@@ -33,9 +33,15 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;new line here&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
                 <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;new step added in local branch&apos;)</body>
+                        <body>print(&apos;asd&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
