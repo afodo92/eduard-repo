@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.4.0.202012071239">
+<testCase version="8.5.0.202103021747">
     <general>
         <notes>Finished on: 26.01.2021
 
@@ -46,6 +46,12 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                                 <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                                 <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                             </applicationProperties>
+                        </item>
+                        <item guid="38fb9874-0def-44b1-9614-442d038d090a" action="eval" useFieldsInCommand="false">
+                            <command>
+                                <body>print(&apos;new line here&apos;)</body>
+                            </command>
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                         </item>
                     </nestedSteps>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -368,6 +374,8 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                                                 </processorInfo>
                                             </item>
                                         </analysisRules>
+                                        <storeResponseAt>testStore1</storeResponseAt>
+                                        <storeResponseText>true</storeResponseText>
                                     </postProcessing>
                                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                                 </item>
@@ -409,6 +417,7 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                                                         </processorInfo>
                                                     </item>
                                                 </analysisRules>
+                                                <storeResponseAt>testStore2</storeResponseAt>
                                             </postProcessing>
                                             <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                                         </item>
@@ -3203,6 +3212,12 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                         <body>Create topology</body>
                     </command>
                     <nestedSteps>
+                        <item guid="2387adc6-efb8-4535-9513-adf988adec7d" action="AddTopologyDevice" session="VelocityPython" useFieldsInCommand="false">
+                            <command>
+                                <body>NEW LINE</body>
+                            </command>
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        </item>
                         <item guid="b842b4b3-cacc-4208-a3c0-1661faa4f3c9" action="AddTopologyDevice" session="VelocityPython" useFieldsInCommand="false">
                             <command>
                                 <body>-topologyName [str(topologyName)+&apos;_1&apos;] -resolvingTime NULL -deviceId [pcIdList\\[0\\]]</body>
@@ -7324,19 +7339,6 @@ velo-5730:FCT: Add/remove nested S1 - S2 structure in active reservation</notes>
                             </item>
                         </analysisRules>
                     </postProcessing>
-                    <nestedSteps>
-                        <item guid="55b53c68-69e5-4618-b55f-ca6470d6a013" action="comment" useFieldsInCommand="false">
-                            <command>
-                                <body>Call cleanup procedure</body>
-                            </command>
-                            <nestedSteps>
-                                <item guid="e0ec79f2-f9df-4e9f-a483-7b4fcd2767e2" action="cleanup" session="VelocityPython" useFieldsInCommand="false">
-                                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                                </item>
-                            </nestedSteps>
-                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                        </item>
-                    </nestedSteps>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
             </steps>
