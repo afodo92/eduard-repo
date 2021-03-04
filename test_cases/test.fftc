@@ -29,13 +29,7 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting line - &apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="be75f83a-4125-49e5-bd08-db339748a029" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;change on master new branch&apos;)</body>
+                        <body>print(&apos;conflicting new&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
