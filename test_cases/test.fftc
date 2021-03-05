@@ -26,18 +26,18 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="4ea23d30-f86f-41a2-b8c9-1768f94e95e0" action="eval" context="masterContext" estimatedStepExecutionTime="100" useResponseMapLibraryApplicability="false" useFieldsInCommand="false" useAutoMap="false">
+                <item guid="4ea23d30-f86f-41a2-b8c9-1768f94e95e0" action="eval" context="newContext" target="newTarget" skip="true" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User 1&apos;)</body>
+                        <body masked="true">y74OmfAs3yl32ic5dyppbQ==</body>
                     </command>
-                    <documentation label="label"/>
-                    <postProcessing>
-                        <storeResponseAt>test</storeResponseAt>
-                        <storeResponseText>true</storeResponseText>
-                        <appendCommand inherit="false">false</appendCommand>
-                        <appendTimestamp inherit="false">false</appendTimestamp>
+                    <postProcessing skipGlobalRules="true" isStoreResponseGlobal="true">
+                        <storeResponseAt>testResponseLocal</storeResponseAt>
+                        <appendAction inherit="false">true</appendAction>
+                        <appendCommand inherit="false" defaultValue=""/>
+                        <appendSession inherit="false">true</appendSession>
                     </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <performResponseMapping>false</performResponseMapping>
                 </item>
                 <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" useFieldsInCommand="false">
                     <command>
