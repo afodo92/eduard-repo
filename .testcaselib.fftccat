@@ -1,22 +1,18 @@
 <?xml version="1.0"?>
-<<<<<<< HEAD
-<TestCaseCatalog version="8.5.0.202103021747"/>
-=======
 <TestCaseCatalog version="8.5.0.202103021747">
     <testCaseCatalog>
         <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202103021747">
                 <general>
-                    <documentation>headline_local</documentation>
-                    <tags>tag_local</tags>
-                    <notes>description_local</notes>
-                    <owner>owner_local</owner>
+                    <documentation>headline_master_new</documentation>
+                    <tags>test</tags>
+                    <owner>owner_local_new</owner>
                     <isProcedureLibrary>true</isProcedureLibrary>
-                    <emulation enable="true"/>
+                    <emulation enable="true" duration="true"/>
+                    <sessionClass includeTestCase="true"/>
                     <language>Python</language>
                 </general>
             </tcDescriptor>
         </item>
     </testCaseCatalog>
 </TestCaseCatalog>
->>>>>>> refs/heads/local_branch
