@@ -19,8 +19,9 @@
         <discardProfile>false</discardProfile>
     </execution>
     <requirements>
-        <requirement key="asdasd">value</requirement>
-        <requirement key="afssgd">asdasd</requirement>
+        <requirement key="rer1">value</requirement>
+        <requirement key="asdasdas">value</requirement>
+        <requirement key="sdfasg">asdasd</requirement>
     </requirements>
     <procedures>
         <item name="main">
