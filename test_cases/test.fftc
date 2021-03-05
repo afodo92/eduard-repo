@@ -39,7 +39,7 @@
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <performResponseMapping>false</performResponseMapping>
                 </item>
-                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" context="contextLocal" useFieldsInCommand="false">
+                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Added New Line in Master&apos;)</body>
                     </command>
