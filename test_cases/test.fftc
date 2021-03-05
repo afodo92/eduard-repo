@@ -18,6 +18,10 @@
         <forceGlobal>true</forceGlobal>
         <discardProfile>false</discardProfile>
     </execution>
+    <requirements>
+        <requirement key="asdasd">value</requirement>
+        <requirement key="afssgd">asdasd</requirement>
+    </requirements>
     <procedures>
         <item name="main">
             <steps>
