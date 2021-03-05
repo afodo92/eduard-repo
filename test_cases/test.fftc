@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <testCase version="8.5.0.202103021747" includeInRun="No" includeIssueInRun="Yes">
     <general>
-        <documentation>headline_master_new</documentation>
+        <documentation>headline_master</documentation>
         <tags>test</tags>
-        <owner>owner_local_new</owner>
+        <notes>new_desc</notes>
         <isProcedureLibrary>true</isProcedureLibrary>
-        <sessionClass includeTestCase="true"/>
         <language>Python</language>
     </general>
     <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
