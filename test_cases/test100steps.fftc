@@ -71,7 +71,7 @@
                 </item>
                 <item guid="6c9a95ab-b604-4ed4-b3be-c097e9ff1cd0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>iuiuioioi</body>
+                        <body>asdasdadasdas</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -191,7 +191,7 @@
                 </item>
                 <item guid="b0aec739-098f-4ab5-a245-41b4f19b0ae2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User 1asd&apos;)</body>
+                        <body>asdasdasd</body>
                     </command>
                     <eventHandlers>
                         <item name="OnSpirentTestCenterSessionDisconnected">
@@ -335,7 +335,7 @@
                 </item>
                 <item guid="6ccdee91-4498-4b32-89ba-8c364c72aad6" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>kujyhtgfds</body>
+                        <body>saasdasd</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -455,7 +455,7 @@
                 </item>
                 <item guid="63965742-c181-4feb-9e3d-3684754aa840" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User &apos;)</body>
+                        <body>afriuhg</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -575,7 +575,7 @@
                 </item>
                 <item guid="1a9d99a6-dfe5-48a2-b44c-da54fafdbcf4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User 11&apos;)</body>
+                        <body>print(&apos;User 12&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -638,7 +638,7 @@
                 </item>
                 <item guid="76b71afd-7dbd-410f-b483-11933c1a12a9" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;User 1111111&apos;)</body>
+                        <body>print(&apos;User 11&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
