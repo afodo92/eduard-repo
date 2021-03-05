@@ -4,11 +4,11 @@
         <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202103021747">
                 <general>
-                    <documentation>headline_master</documentation>
+                    <documentation>headline_master_new</documentation>
                     <tags>test</tags>
-                    <notes>description_local</notes>
+                    <owner>owner_local_new</owner>
                     <isProcedureLibrary>true</isProcedureLibrary>
-                    <emulation enable="true"/>
+                    <sessionClass includeTestCase="true"/>
                     <language>Python</language>
                 </general>
             </tcDescriptor>

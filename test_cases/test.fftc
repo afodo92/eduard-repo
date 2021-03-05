@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<testCase version="8.5.0.202103021747" includeChildInRun="false" includeInRun="No" includeIssueInRun="Yes">
+<testCase version="8.5.0.202103021747" includeInRun="No" includeIssueInRun="Yes">
     <general>
-        <documentation>headline_master</documentation>
+        <documentation>headline_master_new</documentation>
         <tags>test</tags>
-        <notes>description_local</notes>
+        <owner>owner_local_new</owner>
         <isProcedureLibrary>true</isProcedureLibrary>
-        <emulation enable="true"/>
+        <sessionClass includeTestCase="true"/>
         <language>Python</language>
     </general>
     <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
@@ -16,6 +16,7 @@
                 </parameters>
             </parameters>
         </parameters>
+        <forceGlobal>true</forceGlobal>
         <discardProfile>false</discardProfile>
     </execution>
     <procedures>
