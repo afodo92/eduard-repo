@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.5.0.202103021747" includeInRun="No" includeIssueInRun="Yes">
+<testCase version="8.5.0.202103071748" includeInRun="No" includeIssueInRun="Yes">
     <general>
         <documentation>headline_master</documentation>
         <tags>test</tags>
@@ -8,7 +8,7 @@
         <language>Python</language>
     </general>
     <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
-        <parameters version="8.5.0.202103021747">
+        <parameters version="8.5.0.202103071748">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
                     <asdasd>asdasd</asdasd>
@@ -39,11 +39,14 @@
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <performResponseMapping>false</performResponseMapping>
                 </item>
-                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" context="contextLocal" useFieldsInCommand="false">
+                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" context="contextLocal" async="true" skip="true" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Added New Line in Master&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <responseFilterList merge="true">
+                        <item name="ResponseFilterList1"/>
+                    </responseFilterList>
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
                     <command>
