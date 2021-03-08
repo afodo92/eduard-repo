@@ -88,7 +88,7 @@ D
             </steps>
             <response>{}</response>
         </item>
-        <item name="TestProcedures">
+        <item name="TestProcedureRenamedNew">
             <steps>
                 <item guid="f1bdfee9-278f-4d9c-9cc7-ab6f3a0f2f8a" action="eval" useFieldsInCommand="false">
                     <command>
