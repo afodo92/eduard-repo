@@ -82,10 +82,11 @@ D
                     <responseFilterList merge="true">
                         <item name="ResponseFilterList1"/>
                         <item name="ResponseFilterList2"/>
-                        <item name="ResponseFilterList3"/>
+                        <item name="test3"/>
                     </responseFilterList>
                 </item>
             </steps>
+            <response>{}</response>
         </item>
     </procedures>
 </testCase>
