@@ -79,6 +79,11 @@ D
 </comment>
                     </documentation>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <responseFilterList merge="true">
+                        <item name="ResponseFilterList1"/>
+                        <item name="ResponseFilterList2"/>
+                        <item name="ResponseFilterList3"/>
+                    </responseFilterList>
                 </item>
             </steps>
         </item>
