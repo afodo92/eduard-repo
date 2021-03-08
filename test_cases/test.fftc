@@ -64,6 +64,20 @@
                     <command>
                         <body>print(&apos;asdf&apos;)</body>
                     </command>
+                    <documentation label="newLabel">
+                        <tag>newTAg</tag>
+                        <comment>shfpasdf sdf
+dsfh dr
+thsdf
+ajsodjf
+asldjf
+asldf;
+sadlk;lkg;okar;kok
+s;dASFSDF ASD FLAKS;
+D
+;lskdf s
+</comment>
+                    </documentation>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
             </steps>
