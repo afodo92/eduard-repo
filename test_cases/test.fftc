@@ -142,5 +142,49 @@ D
             </steps>
             <response>{}</response>
         </item>
+        <item name="NewProcedure">
+            <steps>
+                <item guid="0c386e9b-5105-4922-b199-d83c81f68a59" action="eval" context="newContext" target="newTarget" skip="true" useFieldsInCommand="false">
+                    <command>
+                        <body masked="true">y74OmfAs3yl32ic5dyppbQ==</body>
+                    </command>
+                    <postProcessing skipGlobalRules="true" isStoreResponseGlobal="true">
+                        <storeResponseAt>testResponseLocal</storeResponseAt>
+                        <appendAction inherit="false">true</appendAction>
+                        <appendCommand inherit="false" defaultValue=""/>
+                        <appendSession inherit="false">true</appendSession>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <performResponseMapping>false</performResponseMapping>
+                </item>
+                <item guid="86cbc7cc-0a75-47a6-9cd9-91ddb9bd3a4b" action="eval" context="contextLocal" async="true" skip="true" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;Added New Line in Master&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <responseFilterList merge="true">
+                        <item name="ResponseFilterList1"/>
+                    </responseFilterList>
+                </item>
+                <item guid="7d859dd6-46f1-4291-af20-7e1c06195a9f" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;conflicting new&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="233b03c0-1e05-460c-b6fe-645e9c035dce" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;new line here&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="a000888b-d023-4a5b-9665-c4de1cb0cacc" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;asdf&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
     </procedures>
 </testCase>
