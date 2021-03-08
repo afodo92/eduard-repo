@@ -39,13 +39,13 @@
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <performResponseMapping>false</performResponseMapping>
                 </item>
-                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" context="contextLocal" useFieldsInCommand="false" skippReporting="false">
+                <item guid="a8d23e0f-0ed2-4f05-bee6-fff5af5da54d" action="eval" context="contextLocal" async="true" skip="true" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Added New Line in Master&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <responseFilterList merge="true">
-                        <item name="test1"/>
+                        <item name="ResponseFilterList1"/>
                     </responseFilterList>
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
