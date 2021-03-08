@@ -114,7 +114,12 @@ D
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="bced47b6-64cb-4c92-b3b7-8cd56889e2a7" action="eval" useFieldsInCommand="false">
+            </steps>
+            <response>{}</response>
+        </item>
+        <item name="NewProcedure">
+            <steps>
+                <item guid="42a167ab-1a45-413b-8b83-c987db14a359" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;asdf&apos;)</body>
                     </command>
@@ -139,11 +144,6 @@ D
                         <item name="test3"/>
                     </responseFilterList>
                 </item>
-            </steps>
-            <response>{}</response>
-        </item>
-        <item name="NewProcedure">
-            <steps>
                 <item guid="0c386e9b-5105-4922-b199-d83c81f68a59" action="eval" context="newContext" target="newTarget" skip="true" useFieldsInCommand="false">
                     <command>
                         <body masked="true">y74OmfAs3yl32ic5dyppbQ==</body>
