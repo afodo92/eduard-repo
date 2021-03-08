@@ -119,6 +119,31 @@ D
         </item>
         <item name="NewProcedure">
             <steps>
+                <item guid="42a167ab-1a45-413b-8b83-c987db14a359" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;asdf&apos;)</body>
+                    </command>
+                    <documentation label="newLabel">
+                        <tag>newTAg</tag>
+                        <comment>shfpasdf sdf
+dsfh dr
+thsdf
+ajsodjf
+asldjf
+asldf;
+sadlk;lkg;okar;kok
+s;dASFSDF ASD FLAKS;
+D
+;lskdf s
+</comment>
+                    </documentation>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <responseFilterList merge="true">
+                        <item name="ResponseFilterList1"/>
+                        <item name="ResponseFilterList2"/>
+                        <item name="test3"/>
+                    </responseFilterList>
+                </item>
                 <item guid="0c386e9b-5105-4922-b199-d83c81f68a59" action="eval" context="newContext" target="newTarget" skip="true" useFieldsInCommand="false">
                     <command>
                         <body masked="true">y74OmfAs3yl32ic5dyppbQ==</body>
@@ -158,31 +183,6 @@ D
                         <body>print(&apos;asdf&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="2b299760-199c-44c2-b240-0f7a67e94662" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;asdf&apos;)</body>
-                    </command>
-                    <documentation label="newLabel">
-                        <tag>newTAg</tag>
-                        <comment>shfpasdf sdf
-dsfh dr
-thsdf
-ajsodjf
-asldjf
-asldf;
-sadlk;lkg;okar;kok
-s;dASFSDF ASD FLAKS;
-D
-;lskdf s
-</comment>
-                    </documentation>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                    <responseFilterList merge="true">
-                        <item name="ResponseFilterList1"/>
-                        <item name="ResponseFilterList2"/>
-                        <item name="test3"/>
-                    </responseFilterList>
                 </item>
             </steps>
         </item>
