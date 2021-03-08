@@ -50,7 +50,7 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting new&apos;)</body>
+                        <body>print(&apos;yesyes&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
