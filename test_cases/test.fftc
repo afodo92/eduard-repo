@@ -114,31 +114,6 @@ D
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="bced47b6-64cb-4c92-b3b7-8cd56889e2a7" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;asdf&apos;)</body>
-                    </command>
-                    <documentation label="newLabel">
-                        <tag>newTAg</tag>
-                        <comment>shfpasdf sdf
-dsfh dr
-thsdf
-ajsodjf
-asldjf
-asldf;
-sadlk;lkg;okar;kok
-s;dASFSDF ASD FLAKS;
-D
-;lskdf s
-</comment>
-                    </documentation>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                    <responseFilterList merge="true">
-                        <item name="ResponseFilterList1"/>
-                        <item name="ResponseFilterList2"/>
-                        <item name="test3"/>
-                    </responseFilterList>
-                </item>
             </steps>
             <response>{}</response>
         </item>
@@ -183,6 +158,31 @@ D
                         <body>print(&apos;asdf&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="2b299760-199c-44c2-b240-0f7a67e94662" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;asdf&apos;)</body>
+                    </command>
+                    <documentation label="newLabel">
+                        <tag>newTAg</tag>
+                        <comment>shfpasdf sdf
+dsfh dr
+thsdf
+ajsodjf
+asldjf
+asldf;
+sadlk;lkg;okar;kok
+s;dASFSDF ASD FLAKS;
+D
+;lskdf s
+</comment>
+                    </documentation>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <responseFilterList merge="true">
+                        <item name="ResponseFilterList1"/>
+                        <item name="ResponseFilterList2"/>
+                        <item name="test3"/>
+                    </responseFilterList>
                 </item>
             </steps>
         </item>
