@@ -50,7 +50,7 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting new&apos;)</body>
+                        <body>print(&apos;asdasdas&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -105,12 +105,6 @@ D
                 <item guid="a7fc3fc3-813d-4c52-b13a-33f600e087a4" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;conflicting new&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="dc566954-f7fa-4f87-9659-3b8f0c43d11b" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;new line here&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -181,6 +175,12 @@ D
                 <item guid="a000888b-d023-4a5b-9665-c4de1cb0cacc" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;asdf&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="af4a46a1-4a3c-4ff5-83ef-8e2f54f4bd50" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;new line here&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
