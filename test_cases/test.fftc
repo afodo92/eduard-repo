@@ -108,12 +108,6 @@ D
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="dc566954-f7fa-4f87-9659-3b8f0c43d11b" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;new line here&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
             </steps>
             <response>{}</response>
         </item>
