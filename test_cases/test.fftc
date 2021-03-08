@@ -88,5 +88,59 @@ D
             </steps>
             <response>{}</response>
         </item>
+        <item name="TestProcedure">
+            <steps>
+                <item guid="f1bdfee9-278f-4d9c-9cc7-ab6f3a0f2f8a" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;conflicting new&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="2027abd4-df15-4c50-a501-39e4b7371111" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;conflicting new&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="a7fc3fc3-813d-4c52-b13a-33f600e087a4" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;conflicting new&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="dc566954-f7fa-4f87-9659-3b8f0c43d11b" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;new line here&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="bced47b6-64cb-4c92-b3b7-8cd56889e2a7" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;asdf&apos;)</body>
+                    </command>
+                    <documentation label="newLabel">
+                        <tag>newTAg</tag>
+                        <comment>shfpasdf sdf
+dsfh dr
+thsdf
+ajsodjf
+asldjf
+asldf;
+sadlk;lkg;okar;kok
+s;dASFSDF ASD FLAKS;
+D
+;lskdf s
+</comment>
+                    </documentation>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <responseFilterList merge="true">
+                        <item name="ResponseFilterList1"/>
+                        <item name="ResponseFilterList2"/>
+                        <item name="test3"/>
+                    </responseFilterList>
+                </item>
+            </steps>
+            <response>{}</response>
+        </item>
     </procedures>
 </testCase>
