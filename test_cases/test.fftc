@@ -11,7 +11,7 @@
         <parameters version="8.5.0.202103081748">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
-                    <param1>value1</param1>
+                    <param1>masterValue</param1>
                 </parameters>
             </parameters>
         </parameters>
