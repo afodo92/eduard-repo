@@ -62,7 +62,7 @@
                 </item>
                 <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;asdf&apos;)</body>
+                        <body>print(&apos;conflict_line_local&apos;)</body>
                     </command>
                     <documentation label="newLabel">
                         <tag>newTAg</tag>
