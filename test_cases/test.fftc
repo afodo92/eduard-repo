@@ -56,7 +56,11 @@
                 </item>
                 <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" useFieldsInCommand="false">
                     <command>
+<<<<<<< HEAD
                         <body>print(&apos;master change&apos;)</body>
+=======
+                        <body>print(&apos;local change&apos;)</body>
+>>>>>>> refs/heads/local_branch_test
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
