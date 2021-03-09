@@ -98,7 +98,7 @@ D
                 </item>
                 <item guid="2027abd4-df15-4c50-a501-39e4b7371111" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting new&apos;)</body>
+                        <body>print(&apos;master commit new 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
