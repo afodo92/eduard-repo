@@ -35,7 +35,7 @@
                 </item>
                 <item guid="262a0585-fe25-4023-930c-b4c0c1224a3e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master</body>
+                        <body>local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>

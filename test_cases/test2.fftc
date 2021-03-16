@@ -50,19 +50,19 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" target="newValue11" useFieldsInCommand="false">
                     <command>
-                        <body>sdsg</body>
+                        <body>gtdrths</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueA" useFieldsInCommand="false">
                     <command>
-                        <body>thftyjhty</body>
+                        <body>asdas</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" target="valueBBB" useFieldsInCommand="false">
                     <command>
-                        <body>jukt87kt8</body>
+                        <body>print(&apos;masterHere&apos;)</body>
                     </command>
                     <documentation label="newLabel">
                         <tag>newTAg</tag>
@@ -92,19 +92,19 @@ D
             <steps>
                 <item guid="f1bdfee9-278f-4d9c-9cc7-ab6f3a0f2f8a" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>yuityu</body>
+                        <body>print(&apos;conflicting new&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="2027abd4-df15-4c50-a501-39e4b7371111" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>gfhjf</body>
+                        <body>print(&apos;master commit new 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="a7fc3fc3-813d-4c52-b13a-33f600e087a4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>nmvgh</body>
+                        <body>print(&apos;master commit local new 1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
