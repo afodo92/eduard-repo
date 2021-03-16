@@ -17,19 +17,19 @@
             <steps>
                 <item guid="4ea23d30-f86f-41a2-b8c9-1768f94e95e0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master1</body>
+                        <body>local1</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="6eaba6f4-d719-4167-ba22-dc603ceb5384" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master2</body>
+                        <body>local2</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="002a999b-538a-452f-b8fb-131375d456d0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master3</body>
+                        <body>local3</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -71,19 +71,19 @@
                 </item>
                 <item guid="6c9a95ab-b604-4ed4-b3be-c097e9ff1cd0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master10</body>
+                        <body>local10</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="c9171004-a981-445b-bfe8-ba5dd482928a" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master11</body>
+                        <body>local11</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="d73ac392-698c-4825-ae18-4f54b3ae891c" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master12</body>
+                        <body>local12</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -131,19 +131,19 @@
                 </item>
                 <item guid="2f0034ef-4fd3-4a6e-b63c-92f2d8d3a164" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master20</body>
+                        <body>local20</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="deda1051-0f5d-4182-ba36-88407fbab96c" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master21</body>
+                        <body>local21</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="16486b53-c33e-477f-a425-88c72d988c6e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master22</body>
+                        <body>local22</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -191,7 +191,7 @@
                 </item>
                 <item guid="b0aec739-098f-4ab5-a245-41b4f19b0ae2" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master30</body>
+                        <body>local30</body>
                     </command>
                     <eventHandlers>
                         <item name="OnSpirentTestCenterSessionDisconnected">
@@ -221,13 +221,13 @@
                 </item>
                 <item guid="74a53eee-a090-4310-bf3e-5aad1bc3a060" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master31</body>
+                        <body>local31</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="934f9737-0dc8-4291-8315-5773eeadff1d" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master32</body>
+                        <body>local32</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -275,19 +275,19 @@
                 </item>
                 <item guid="5423035e-208e-4875-97e5-42d345927e0b" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master40</body>
+                        <body>local40</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="61b8c906-dcd7-4375-a291-7ae17d9e59a6" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master41</body>
+                        <body>local41</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="a3197b35-99db-4fcd-89ba-91622392aa86" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master42</body>
+                        <body>local42</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -335,19 +335,19 @@
                 </item>
                 <item guid="6ccdee91-4498-4b32-89ba-8c364c72aad6" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master50</body>
+                        <body>local50</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="aeda0329-f0cb-437a-ae34-7dce19119a79" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master51</body>
+                        <body>local51</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="9dfd5bb2-4c01-437b-a271-4eab2e14102e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master52</body>
+                        <body>local52</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -395,19 +395,19 @@
                 </item>
                 <item guid="deb323eb-446f-450b-9f55-5488a3d2b33c" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master60</body>
+                        <body>local60</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="fbbaf703-fc55-4182-a59b-03f5329b5ff4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master61</body>
+                        <body>local61</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="52647927-7125-4725-8de2-4aac3a1467a0" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master62</body>
+                        <body>local62</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -455,19 +455,19 @@
                 </item>
                 <item guid="63965742-c181-4feb-9e3d-3684754aa840" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master70</body>
+                        <body>local70</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="bda7194a-88d8-486b-b24f-f26cbeb03baf" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master71</body>
+                        <body>local71</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="9b80d1a4-331e-440e-8336-29b8a96bb651" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master72</body>
+                        <body>local72</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -515,19 +515,19 @@
                 </item>
                 <item guid="ef70d325-7c13-49e5-85c5-de8a93e62f18" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master80</body>
+                        <body>local80</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="5d0f994f-de90-4d1c-9f97-30262187b59a" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master81</body>
+                        <body>local81</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="676d3a05-df38-4ea4-bafa-a8d6bf0fbf86" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master82</body>
+                        <body>local82</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -575,19 +575,19 @@
                 </item>
                 <item guid="1a9d99a6-dfe5-48a2-b44c-da54fafdbcf4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master90</body>
+                        <body>local90</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="a0c3285a-9c82-43c5-9968-3b0491300f36" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master91</body>
+                        <body>local91</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="c3bd682d-f6c6-4e02-add3-25722279371a" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master92</body>
+                        <body>local92</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -638,7 +638,7 @@
                 </item>
                 <item guid="76b71afd-7dbd-410f-b483-11933c1a12a9" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master100</body>
+                        <body>local100</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
