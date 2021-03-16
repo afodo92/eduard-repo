@@ -92,19 +92,19 @@ D
             <steps>
                 <item guid="f1bdfee9-278f-4d9c-9cc7-ab6f3a0f2f8a" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;conflicting new&apos;)</body>
+                        <body>asdasd</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="2027abd4-df15-4c50-a501-39e4b7371111" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;master commit new 1&apos;)</body>
+                        <body>sdasdasd</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="a7fc3fc3-813d-4c52-b13a-33f600e087a4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;master commit local new 1&apos;)</body>
+                        <body>asdsadasfr</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>

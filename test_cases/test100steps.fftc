@@ -35,13 +35,13 @@
                 </item>
                 <item guid="262a0585-fe25-4023-930c-b4c0c1224a3e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master4</body>
+                        <body>local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="770a00ed-bfe2-4bb8-836a-dfe093af100e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>master5</body>
+                        <body>local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -638,7 +638,7 @@
                 </item>
                 <item guid="76b71afd-7dbd-410f-b483-11933c1a12a9" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>local100</body>
+                        <body>local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
