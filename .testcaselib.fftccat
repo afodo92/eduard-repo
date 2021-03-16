@@ -12,5 +12,27 @@
                 </general>
             </tcDescriptor>
         </item>
+        <item name="test_cases/test2.fftc">
+            <tcDescriptor version="8.5.0.202103152118">
+                <general>
+                    <documentation>headline_master</documentation>
+                    <tags>test</tags>
+                    <notes>new_desc</notes>
+                    <isProcedureLibrary>true</isProcedureLibrary>
+                    <language>Python</language>
+                </general>
+            </tcDescriptor>
+        </item>
+        <item name="test_cases/test3.fftc">
+            <tcDescriptor version="8.5.0.202103152118">
+                <general>
+                    <documentation>headline_master</documentation>
+                    <tags>test</tags>
+                    <notes>new_desc</notes>
+                    <isProcedureLibrary>true</isProcedureLibrary>
+                    <language>Python</language>
+                </general>
+            </tcDescriptor>
+        </item>
     </testCaseCatalog>
 </TestCaseCatalog>
