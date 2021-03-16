@@ -48,19 +48,19 @@
                         <item name="ResponseFilterList1"/>
                     </responseFilterList>
                 </item>
-                <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" useFieldsInCommand="false">
+                <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" target="newValue11" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;line1 local change&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueA" useFieldsInCommand="false">
+                <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueAA" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;line 2 master change&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" target="valueB" useFieldsInCommand="false">
+                <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" target="valueBBB" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;masterHere&apos;)</body>
                     </command>
