@@ -67,7 +67,7 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" target="valueBBB" useFieldsInCommand="false">
+                <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" context="contextMaster" target="valueBBB" useFieldsInCommand="false">
                     <command>
                         <body>asdasdsa</body>
                     </command>
