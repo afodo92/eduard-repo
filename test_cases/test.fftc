@@ -63,7 +63,7 @@
                 </item>
                 <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueA" useFieldsInCommand="false">
                     <command>
-                        <body>iuytr</body>
+                        <body>conflict_line1</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
