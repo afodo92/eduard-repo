@@ -16,7 +16,7 @@ _This is sample italic text_
 # Links
 
 [Hyperlink](https://www.google.com)  
-[Hyperlink with **bold** and _italic_ words](www.google.com)  
+[Hyperlink with **bold** and _italic_ words](https://www.google.com)  
 Please access the following [link](www.google.com)  
 
 # References
