@@ -50,7 +50,7 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" target="newValue11" useFieldsInCommand="false">
                     <command>
-                        <body>rth</body>
+                        <body>test conflict</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
