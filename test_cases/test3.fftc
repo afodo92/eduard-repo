@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.5.0.202103152118" includeInRun="No" includeIssueInRun="Yes">
+<testCase version="8.5.0.202104211757" includeInRun="No" includeIssueInRun="Yes">
     <general>
         <documentation>headline_master</documentation>
         <tags>test</tags>
@@ -8,7 +8,7 @@
         <language>Python</language>
     </general>
     <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
-        <parameters version="8.5.0.202103152118">
+        <parameters version="8.5.0.202104211757">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
                     <param1>master_value_here</param1>
@@ -51,6 +51,12 @@
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" target="newValue11" useFieldsInCommand="false">
                     <command>
                         <body>rth</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="7276d990-3d14-4a27-a97d-b1d76c086b79" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>new step local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
