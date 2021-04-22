@@ -50,13 +50,7 @@
                 </item>
                 <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" target="newValue11" useFieldsInCommand="false">
                     <command>
-                        <body>test conflict master</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="7276d990-3d14-4a27-a97d-b1d76c086b79" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>new step local</body>
+                        <body>conflict local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
