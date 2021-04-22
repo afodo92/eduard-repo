@@ -12,7 +12,7 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test3.fftc">
+        <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
                     <documentation>headline_master</documentation>
@@ -23,7 +23,7 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test.fftc">
+        <item name="test_cases/test3.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
                     <documentation>headline_master</documentation>

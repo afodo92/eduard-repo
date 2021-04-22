@@ -60,6 +60,12 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="e17555eb-f413-4821-b18a-4b95162aa5d0" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>asdadasdasdasdas</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
                 <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueA" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;line 2 master change&apos;)</body>
