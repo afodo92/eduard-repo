@@ -54,12 +54,6 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="7276d990-3d14-4a27-a97d-b1d76c086b79" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>new step local</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
                 <item guid="e17555eb-f413-4821-b18a-4b95162aa5d0" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>asdadasdasdasdas</body>
