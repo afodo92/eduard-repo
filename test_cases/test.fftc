@@ -53,6 +53,7 @@
                     <command>
                         <body>print(&apos;line1 local change&apos;)</body>
                     </command>
+                    <documentation label="teestLabel"/>
                     <postProcessing>
                         <storeResponseAt>StoreNew</storeResponseAt>
                     </postProcessing>
@@ -65,10 +66,13 @@
                         <item name="asdasd"/>
                     </responseFilterList>
                 </item>
-                <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueA" useFieldsInCommand="false">
+                <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" context="aaaa" target="valueA" useFieldsInCommand="false">
                     <command>
                         <body>change in local</body>
                     </command>
+                    <postProcessing>
+                        <storeResponseAt>testStore2</storeResponseAt>
+                    </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="55378881-7f96-4784-814f-cd2ab01f547d" action="eval" context="contextLocal" target="valueBBB" useFieldsInCommand="false">
