@@ -49,10 +49,13 @@
                         <item name="ResponseFilterList1"/>
                     </responseFilterList>
                 </item>
-                <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" target="newValue11" useFieldsInCommand="false">
+                <item guid="c00c3ad5-9f66-44be-b1ff-e63b1bab5da2" action="eval" context="asdasdas" target="newValue11" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;line1 local change&apos;)</body>
                     </command>
+                    <postProcessing>
+                        <storeResponseAt>StoreNew</storeResponseAt>
+                    </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <responseFilterList merge="true">
                         <item name="ResponseFilterList1"/>
