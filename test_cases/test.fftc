@@ -64,7 +64,7 @@
                 </item>
                 <item guid="749a40b0-8c0c-48f1-964e-597891749bf5" action="eval" target="valueA" useFieldsInCommand="false">
                     <command>
-                        <body>master line new</body>
+                        <body>change in local</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>

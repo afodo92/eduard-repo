@@ -12,10 +12,9 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test.fftc">
+        <item name="test_cases/test3.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
-                    <rendering tclNamespace="master_namespace" testCaseId="local_ID" testCaseName="master_name"/>
                     <documentation>headline_master</documentation>
                     <tags>test</tags>
                     <notes>new_desc</notes>
@@ -24,9 +23,10 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test3.fftc">
+        <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
+                    <rendering tclNamespace="master_namespace" testCaseId="local_ID" testCaseName="master_name"/>
                     <documentation>headline_master</documentation>
                     <tags>test</tags>
                     <notes>new_desc</notes>
