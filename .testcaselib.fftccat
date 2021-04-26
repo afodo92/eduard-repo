@@ -15,6 +15,7 @@
         <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
+                    <rendering tclNamespace="local_namespace" testCaseId="local_ID" testCaseName="local_name"/>
                     <documentation>headline_master</documentation>
                     <tags>test</tags>
                     <notes>new_desc</notes>
