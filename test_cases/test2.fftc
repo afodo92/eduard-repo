@@ -3,6 +3,7 @@
     <general>
         <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
         <documentation>headline_master</documentation>
+        <owner>MasterChangeOwner</owner>
         <isProcedureLibrary>true</isProcedureLibrary>
         <language>Python</language>
     </general>
@@ -27,7 +28,7 @@
             <steps>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Initial Version&apos;)</body>
+                        <body>print(&apos;Conflicting step - Master Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -40,12 +41,6 @@
                 <item guid="48c90fbe-c2b9-434e-b0d0-0404423fde0a" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Non-conflicting step - Initial Version&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="02eb9f0b-beea-4909-98a4-deedc6f83c10" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;Step to be deleted in Master - Initial Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -65,29 +60,13 @@
                         <body>print(&apos;Step with conflicting changes&apos;)</body>
                     </command>
                     <postProcessing>
-                        <storeResponseAt>InitialVersionStoreResponse</storeResponseAt>
+                        <storeResponseAt>MasterVersionStoreResponse</storeResponseAt>
                         <storeResponseText>true</storeResponseText>
                     </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
             </steps>
             <response>{}</response>
-        </item>
-        <item name="General">
-            <steps>
-                <item guid="70bfa526-cc26-4176-85c8-2760a6c881b6" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;General page non-conflicting&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="a71ee151-cb54-48fd-a66c-c61f6f156f56" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;General page conflicting&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-            </steps>
         </item>
     </procedures>
 </testCase>
