@@ -14,11 +14,9 @@
         <item name="test_cases/test2.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
-                    <rendering tclNamespace="LocalChangeNamespace" testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
+                    <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
                     <documentation>headline_master</documentation>
-                    <owner>MasterChangeOwner</owner>
                     <isProcedureLibrary>true</isProcedureLibrary>
-                    <emulation enable="true"/>
                     <language>Python</language>
                 </general>
             </tcDescriptor>

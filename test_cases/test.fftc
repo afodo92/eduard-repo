@@ -43,12 +43,6 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="02eb9f0b-beea-4909-98a4-deedc6f83c10" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;Step to be deleted in Master - Initial Version&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
             </steps>
             <response>{}</response>
         </item>
@@ -72,22 +66,6 @@
                 </item>
             </steps>
             <response>{}</response>
-        </item>
-        <item name="General">
-            <steps>
-                <item guid="70bfa526-cc26-4176-85c8-2760a6c881b6" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;General page non-conflicting&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="a71ee151-cb54-48fd-a66c-c61f6f156f56" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;General page conflicting&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-            </steps>
         </item>
     </procedures>
 </testCase>
