@@ -1,28 +1,6 @@
 <?xml version="1.0"?>
 <TestCaseCatalog version="8.5.0.202104211757">
     <testCaseCatalog>
-        <item name="test_cases/test2.fftc">
-            <tcDescriptor version="8.5.0.202104211757">
-                <general>
-                    <documentation>headline_master</documentation>
-                    <tags>test</tags>
-                    <notes>new_desc</notes>
-                    <isProcedureLibrary>true</isProcedureLibrary>
-                    <language>Python</language>
-                </general>
-            </tcDescriptor>
-        </item>
-        <item name="test_cases/test3.fftc">
-            <tcDescriptor version="8.5.0.202104211757">
-                <general>
-                    <documentation>headline_master</documentation>
-                    <tags>test</tags>
-                    <notes>new_desc</notes>
-                    <isProcedureLibrary>true</isProcedureLibrary>
-                    <language>Python</language>
-                </general>
-            </tcDescriptor>
-        </item>
         <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
