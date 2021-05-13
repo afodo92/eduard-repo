@@ -29,7 +29,7 @@
             <steps>
                 <item guid="02eb9f0b-beea-4909-98a4-deedc6f83c10" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Non conflicting step Change on Master - Master Changed version&apos;)</body>
+                        <body>print(&apos;Non conflicting step Change on Master - Initial version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -41,7 +41,7 @@
                 </item>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - master&apos;)</body>
+                        <body>print(&apos;Conflicting step - Initial&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
