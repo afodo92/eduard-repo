@@ -29,25 +29,13 @@
             <steps>
                 <item guid="02eb9f0b-beea-4909-98a4-deedc6f83c10" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Non conflicting step - Initial version&apos;)</body>
+                        <body>print(&apos;Non conflicting step Change on Master - Initial version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="91a572e4-f02c-4783-8cbb-d3f73a56aa4e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Initial version&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="3881f1e3-a643-4925-b034-0d99dbcb72e7" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;Deleted step on master&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="8a2c26ba-f7ad-422d-ab28-0ae0fb99ebb0" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;Deleted step on local&apos;)</body>
+                        <body>print(&apos;Non conflicting step Change on Local - Initial version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
