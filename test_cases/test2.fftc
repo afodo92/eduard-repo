@@ -29,19 +29,19 @@
             <steps>
                 <item guid="02eb9f0b-beea-4909-98a4-deedc6f83c10" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Non conflicting step Change on Master - Initial version&apos;)</body>
+                        <body>print(&apos;Step to be deleted in Master - Initial version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="91a572e4-f02c-4783-8cbb-d3f73a56aa4e" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Non conflicting step Change on Local - Local version&apos;)</body>
+                        <body>print(&apos;Step to be deleted in Local - Initial version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Master Version&apos;)</body>
+                        <body>print(&apos;Conflicting step - Initial Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
