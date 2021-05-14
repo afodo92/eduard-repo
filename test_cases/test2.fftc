@@ -28,7 +28,7 @@
             <steps>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Master Changed Version&apos;)</body>
+                        <body>print(&apos;Conflicting step - Local Changed Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
