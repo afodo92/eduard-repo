@@ -11,5 +11,15 @@
                 </general>
             </tcDescriptor>
         </item>
+        <item name="test_cases/test2.fftc">
+            <tcDescriptor version="8.5.0.202104211757">
+                <general>
+                    <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
+                    <documentation>headline_master</documentation>
+                    <isProcedureLibrary>true</isProcedureLibrary>
+                    <language>Python</language>
+                </general>
+            </tcDescriptor>
+        </item>
     </testCaseCatalog>
 </TestCaseCatalog>
