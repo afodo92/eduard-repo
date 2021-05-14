@@ -76,6 +76,7 @@
                 </actionProperties>
             </item>
             <item actionId="DeclareExecutionIssue">
+<<<<<<< HEAD
                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
                     <message>{conflict}</message>
                 </actionProperties>
@@ -89,6 +90,30 @@
                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
                     <message>{conflict}</message>
                 </actionProperties>
+=======
+                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup"/>
+            </item>
+            <item actionId="DeclareExecutionIssue">
+                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup"/>
+            </item>
+            <item actionId="DeclareExecutionIssue">
+                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                    <message>{asdasdsads}</message>
+                </actionProperties>
+            </item>
+            <item actionId="FailTest">
+                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+            </item>
+        </item>
+        <item name="OnQueryExtractorInvalidQuery">
+            <item actionId="DeclareExecutionIssue">
+                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                    <message>Invalid query: {0}</message>
+                </actionProperties>
+            </item>
+            <item actionId="DeclareExecutionIssue">
+                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup"/>
+>>>>>>> refs/heads/local_test7
             </item>
             <item actionId="FailTest">
                 <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
