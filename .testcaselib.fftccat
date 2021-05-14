@@ -16,6 +16,7 @@
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
                     <documentation>headline_master</documentation>
+                    <owner>MasterChangeOwner</owner>
                     <isProcedureLibrary>true</isProcedureLibrary>
                     <language>Python</language>
                 </general>
