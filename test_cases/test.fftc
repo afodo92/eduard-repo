@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 <testCase version="8.5.0.202104211757" includeInRun="No" includeIssueInRun="Yes">
     <general>
-        <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
+        <rendering tclNamespace="LocalChangeNamespace" testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
         <documentation>headline_master</documentation>
+        <owner>LocalChangeOwner</owner>
         <isProcedureLibrary>true</isProcedureLibrary>
+        <emulation enable="true"/>
         <language>Python</language>
     </general>
     <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
@@ -27,19 +29,19 @@
             <steps>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Initial Version&apos;)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="91a572e4-f02c-4783-8cbb-d3f73a56aa4e" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(&apos;Step to be deleted in Local - Initial Version&apos;)</body>
+                        <body>print(&apos;Conflicting step - Local Changed Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="48c90fbe-c2b9-434e-b0d0-0404423fde0a" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Non-conflicting step - Initial Version&apos;)</body>
+                        <body>print(&apos;Non-conflicting step - Local Changed Version&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="f1c83048-22e2-485f-b69a-8c7437f7f33a" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;Step Added on Local Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -48,10 +50,14 @@
         </item>
         <item name="StepProperties">
             <steps>
-                <item guid="e1868616-0220-4850-a4f2-7d257f2836ca" action="eval" context="InitialVersionContext" useFieldsInCommand="false">
+                <item guid="e1868616-0220-4850-a4f2-7d257f2836ca" action="eval" context="InitialVersionContext" target="LocalChangeTarget" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Step with non-conflicting changes&apos;)</body>
                     </command>
+                    <postProcessing>
+                        <appendCommand inherit="false">false</appendCommand>
+                        <appendTimestamp inherit="false">false</appendTimestamp>
+                    </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="e21ea06b-3b6f-40ba-8b43-ce10c3798955" action="eval" context="InitialVersionContext" useFieldsInCommand="false">
@@ -59,7 +65,7 @@
                         <body>print(&apos;Step with conflicting changes&apos;)</body>
                     </command>
                     <postProcessing>
-                        <storeResponseAt>InitialVersionStoreResponse</storeResponseAt>
+                        <storeResponseAt>LocalVersionStoreResponse</storeResponseAt>
                         <storeResponseText>true</storeResponseText>
                     </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
