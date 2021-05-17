@@ -3,6 +3,7 @@
     <general>
         <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
         <documentation>headline_master</documentation>
+        <owner>MasterChangeOwner</owner>
         <isProcedureLibrary>true</isProcedureLibrary>
         <language>Python</language>
     </general>
@@ -27,7 +28,7 @@
             <steps>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Initial Version&apos;)</body>
+                        <body>print(&apos;Conflicting step - Master Changed Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -59,7 +60,7 @@
                         <body>print(&apos;Step with conflicting changes&apos;)</body>
                     </command>
                     <postProcessing>
-                        <storeResponseAt>InitialVersionStoreResponse</storeResponseAt>
+                        <storeResponseAt>MasterVersionStoreResponse</storeResponseAt>
                         <storeResponseText>true</storeResponseText>
                     </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
