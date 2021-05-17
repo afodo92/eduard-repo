@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <TestCaseCatalog version="8.5.0.202104211757">
     <testCaseCatalog>
-        <item name="test_cases/test.fftc">
+        <item name="test_cases/test2.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
@@ -12,7 +12,7 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test2.fftc">
+        <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>

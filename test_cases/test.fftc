@@ -28,7 +28,7 @@
             <steps>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - Master Changed Version&apos;)</body>
+                        <body>print(&apos;Conflicting step - Local Changed Version&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -49,10 +49,14 @@
         </item>
         <item name="StepProperties">
             <steps>
-                <item guid="e1868616-0220-4850-a4f2-7d257f2836ca" action="eval" context="InitialVersionContext" useFieldsInCommand="false">
+                <item guid="e1868616-0220-4850-a4f2-7d257f2836ca" action="eval" context="InitialVersionContext" target="LocalChangeTarget" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Step with non-conflicting changes&apos;)</body>
                     </command>
+                    <postProcessing>
+                        <appendCommand inherit="false">false</appendCommand>
+                        <appendTimestamp inherit="false">false</appendTimestamp>
+                    </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="e21ea06b-3b6f-40ba-8b43-ce10c3798955" action="eval" context="InitialVersionContext" useFieldsInCommand="false">
