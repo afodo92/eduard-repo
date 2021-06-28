@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<testCase version="8.5.0.202104211757" includeInRun="No" includeIssueInRun="Yes">
+    <general>
+        <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
+        <documentation>headline_master</documentation>
+        <owner>MasterChangeOwner</owner>
+        <isProcedureLibrary>true</isProcedureLibrary>
+        <language>Python</language>
+    </general>
+    <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
+        <parameters version="8.5.0.202104211757">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <param1>asdas</param1>
+                </parameters>
+            </parameters>
+        </parameters>
+        <forceGlobal>true</forceGlobal>
+        <discardProfile>false</discardProfile>
+    </execution>
+    <requirements>
+        <requirement key="rer1">value</requirement>
+        <requirement key="asdasdas">value</requirement>
+        <requirement key="sdfasg">asdasd</requirement>
+    </requirements>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;Conflicting step - Master Commit Version 1&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="91a572e4-f02c-4783-8cbb-d3f73a56aa4e" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;Step to be deleted in Local - Initial Version&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="48c90fbe-c2b9-434e-b0d0-0404423fde0a" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&apos;Non-conflicting step - Initial Version&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+            <response>{}</response>
+        </item>
+    </procedures>
+</testCase>

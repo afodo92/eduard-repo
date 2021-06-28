@@ -12,7 +12,7 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test1.fftc">
+        <item name="test_cases/test.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
@@ -24,6 +24,17 @@
             </tcDescriptor>
         </item>
         <item name="test_cases/test1.fftc">
+            <tcDescriptor version="8.5.0.202104211757">
+                <general>
+                    <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
+                    <documentation>headline_master</documentation>
+                    <owner>MasterChangeOwner</owner>
+                    <isProcedureLibrary>true</isProcedureLibrary>
+                    <language>Python</language>
+                </general>
+            </tcDescriptor>
+        </item>
+        <item name="test_cases/test3.fftc">
             <tcDescriptor version="8.5.0.202104211757">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
