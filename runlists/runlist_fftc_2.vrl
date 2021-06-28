@@ -39,7 +39,7 @@
         "parameters": [
           
         ],
-        "path": "demo/activity-catalog-assets/test_cases/nothing.fftc",
+        "path": "eduard-repo/test_cases/test1.fftc",
         "requirements": [
           
         ],
@@ -65,7 +65,7 @@
         "parameters": [
           
         ],
-        "path": "eduard-repo/test_cases/fail.fftc",
+        "path": "eduard-repo/test_cases/test1.fftc",
         "requirements": [
           
         ],
