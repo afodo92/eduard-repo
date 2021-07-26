@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="8.6.0.202107201929" includeInRun="No" includeIssueInRun="Yes">
+<testCase version="8.6.0.202107251123" includeInRun="No" includeIssueInRun="Yes">
     <general>
         <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
         <documentation>headline_master</documentation>
@@ -8,7 +8,7 @@
         <language>Python</language>
     </general>
     <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
-        <parameters version="8.6.0.202107201929">
+        <parameters version="8.6.0.202107251123">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
                     <param1>asdas</param1>
@@ -28,7 +28,7 @@
             <steps>
                 <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(&apos;Conflicting step - local test new&apos;)</body>
+                        <body>print(&apos;Conflicting step - htgrd&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
