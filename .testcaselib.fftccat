@@ -23,7 +23,7 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test1.fftc">
+        <item name="test_cases/test3.fftc">
             <tcDescriptor version="8.6.0.202107251123">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
@@ -34,7 +34,7 @@
                 </general>
             </tcDescriptor>
         </item>
-        <item name="test_cases/test3.fftc">
+        <item name="test_cases/test1.fftc">
             <tcDescriptor version="8.6.0.202107251123">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
