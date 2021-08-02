@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<TestCaseCatalog version="8.6.0.202107251123">
+<TestCaseCatalog version="8.6.0.202107301103">
     <testCaseCatalog>
         <item name="test_cases/test2.fftc">
-            <tcDescriptor version="8.6.0.202107251123">
+            <tcDescriptor version="8.6.0.202107301103">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
                     <documentation>headline_master</documentation>
@@ -13,7 +13,7 @@
             </tcDescriptor>
         </item>
         <item name="test_cases/test.fftc">
-            <tcDescriptor version="8.6.0.202107251123">
+            <tcDescriptor version="8.6.0.202107301103">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
                     <documentation>headline_master</documentation>
@@ -24,7 +24,7 @@
             </tcDescriptor>
         </item>
         <item name="test_cases/test3.fftc">
-            <tcDescriptor version="8.6.0.202107251123">
+            <tcDescriptor version="8.6.0.202107301103">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
                     <documentation>headline_master</documentation>
@@ -35,7 +35,7 @@
             </tcDescriptor>
         </item>
         <item name="test_cases/test1.fftc">
-            <tcDescriptor version="8.6.0.202107251123">
+            <tcDescriptor version="8.6.0.202107301103">
                 <general>
                     <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
                     <documentation>headline_master</documentation>
