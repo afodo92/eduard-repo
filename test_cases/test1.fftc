@@ -26,7 +26,7 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" context="contextMaster" useFieldsInCommand="false">
+                <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" context="contextLocal" useFieldsInCommand="false">
                     <command>
                         <body>print(&apos;Conflicting step - master conflict change&apos;)</body>
                     </command>
