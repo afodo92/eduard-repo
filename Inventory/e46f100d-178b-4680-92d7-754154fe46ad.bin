@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>TOP6-VM-ubuntu</name>
+<description/>
+<isSharedAccess>false</isSharedAccess>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="V1:VIRTUAL_MACHINE:APPLICATION:518ec9b5-bfe9-44b2-9599-146484071969::" id="ibc2ff30c-f01d-4d8b-aa07-4d165389b19f" shared="false" type="virtual_machine">
+<property isimportant="false" name="name">VM-ubuntu-Ionut</property>
+<property isimportant="false" name="description">A virtual machine is an isolated guest operating system installation within a normal host operating system.</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=V1:VIRTUAL_MACHINE:APPLICATION:518ec9b5-bfe9-44b2-9599-146484071969::</property>
+<property isimportant="false" name="ilo_vmTemplateId"/>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="cloudObjectOwnershipType">APPLICATION</property>
+
+
+
+
+<boundary height="100" width="100" x="472" y="185"/>
+<propertyCollection name="Initial Configuration">
+<property description="Current status of object." editable="false" id="statusId" name="Status" order="0" required="false" type="TEXT" valuelabel=""/>
+<property description="Configuration information or scripts to use upon launch." editable="true" id="customScriptId" name="Customization script" order="1" required="false" type="TEXT_AREA" valuelabel="">#!/bin/bash mkdir CustomTest</property>
+<property description="Configure IP packets to go through the Router that is connected to the same network. Note: This setting only works for Linux machines." editable="true" id="configureL3RoutesId" name="Configure L3 routes" order="2" required="true" type="BOOLEAN" valuelabel="true">true</property>
+</propertyCollection>
+<propertyCollection name="Hardware Configuration">
+<property description="The hardware profile reference for the desired CPU Cores, RAM and disk size for your virtual machine." editable="true" id="hardwareProfileId" name="Hardware profile" order="0" required="false" type="DROP_DOWN_LIST" valuelabel=""/>
+<property description="Minimum CPU cores for your virtual machine." editable="true" id="minCpuCoresId" name="Min CPU cores" order="1" required="false" type="INTEGER" valuelabel=""/>
+<property description="Minimum RAM in MB for your virtual machine." editable="true" id="minRamMbId" name="Min RAM MB" order="2" required="false" type="INTEGER" valuelabel=""/>
+<property description="Min disc in GB for your virtual machine." editable="true" id="minDiscGbId" name="Min disc GB" order="3" required="false" type="INTEGER" valuelabel=""/>
+</propertyCollection>
+<propertyCollection name="Image Configuration">
+<property description="The image reference for the desired image for your server instance." editable="true" id="imageId" name="Image" order="0" required="false" type="DROP_DOWN_LIST" valuelabel="test_ubuntu_template">eyJ2YWx1ZSI6InZtLTY3MiIsInR5cGUiOiJWaXJ0dWFsTWFjaGluZSJ9</property>
+<property description="Search string for the virtual machine image by the operating system family." editable="true" id="osFamilyMatchId" name="OS family" order="1" required="false" type="DROP_DOWN_LIST" valuelabel="ubuntu64Guest">ubuntu64Guest</property>
+<property description="Search string for the virtual machine image by the image name (full or partial regex matching)." editable="true" id="imageNameMatchId" name="Image name" order="2" required="false" type="TEXT" valuelabel="test_ubuntu_template">test_ubuntu_template</property>
+<property description="Search string for the virtual machine image by the image custom properties (full or partial regex matching)." editable="true" id="customPropertiesMatchId" name="Custom properties match" order="3" required="false" type="TEXT" valuelabel=""/>
+</propertyCollection>
+<propertyCollection name="General">
+<property editable="true" id="cloudId" name="Cloud" order="-100" required="true" type="DROP_DOWN_LIST" valuelabel="Qa7">518ec9b5-bfe9-44b2-9599-146484071969</property>
+</propertyCollection>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>

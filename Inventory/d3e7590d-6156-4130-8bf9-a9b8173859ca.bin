@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>VM5-Top</name>
+<description/>
+<isSharedAccess>false</isSharedAccess>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="V1:VIRTUAL_MACHINE:CLOUD:8f21a2e2-de0d-4b26-a039-93be0f6b566f::" id="i60a9c4a9-f2fc-4ed2-a7e9-23e55a18a10d" shared="false" type="virtual_machine">
+<property isimportant="false" name="name">VM-Abst</property>
+<property isimportant="false" name="inventoryName">Virtual Machine</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=V1:VIRTUAL_MACHINE:CLOUD:8f21a2e2-de0d-4b26-a039-93be0f6b566f::</property>
+<property isimportant="false" name="ilo_vmTemplateId"/>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="cloudObjectOwnershipType">CLOUD</property>
+<propertyCollection name="Common Conditions" order="0">
+<property description="Search string for the abstract virtual element by the name (full or partial regex matching)." editable="true" id="existingObjectNameMatchId" iscloudspecific="false" isimportant="false" name="Cloud element name" order="0" required="false" type="TEXT"/>
+</propertyCollection>
+<propertyCollection name="General" order="-100">
+<property description="" editable="true" id="cloudId" iscloudspecific="false" isimportant="false" name="Cloud" order="-100" required="true" type="DROP_DOWN_LIST" valuelabel="Vcenter 6.7">8f21a2e2-de0d-4b26-a039-93be0f6b566f</property>
+</propertyCollection>
+<boundary height="100" width="100" x="379" y="257.99999999999994"/>
+<resource guid="V1:VIRTUAL_MACHINE_PORT:CLOUD:8f21a2e2-de0d-4b26-a039-93be0f6b566f::" id="ifdf606bb-c0e7-4b0e-8eac-7c2b1ccd5d7c" type="virtual_port">
+<property isimportant="false" name="name">vnic 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="cloudObjectOwnershipType">CLOUD</property>
+</resource>
+</resource>
+<resource guid="V1:VIRTUAL_NETWORK:CLOUD:8f21a2e2-de0d-4b26-a039-93be0f6b566f::" id="iebcb12bb-4f49-4e88-b1d4-843c6c169e4f" shared="false" type="virtual_network">
+<property isimportant="false" name="name">VN-abstract</property>
+<property isimportant="false" name="inventoryName">Virtual Network</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/Device_generic_32.gif</property>
+<property isimportant="false" name="cloudObjectOwnershipType">CLOUD</property>
+<propertyCollection name="Common Conditions" order="0">
+<property description="Search string for the abstract virtual element by the name (full or partial regex matching)." editable="true" id="existingObjectNameMatchId" iscloudspecific="false" isimportant="false" name="Cloud element name" order="0" required="false" type="TEXT"/>
+</propertyCollection>
+<propertyCollection name="General" order="-100">
+<property description="" editable="true" id="cloudId" iscloudspecific="false" isimportant="false" name="Cloud" order="-100" required="true" type="DROP_DOWN_LIST" valuelabel="Vcenter 6.7">8f21a2e2-de0d-4b26-a039-93be0f6b566f</property>
+</propertyCollection>
+<boundary height="100" width="130" x="908.0000000000001" y="257.99999999999994"/>
+</resource>
+</resources>
+<connectivity>
+<link id="i67c46248-d75b-40ed-aa4e-fe3bea15fc07">
+<property isimportant="false" name="name">Link</property>
+<property isimportant="false" name="type">Virtual</property>
+<property isimportant="false" name="abstractResourceId"/>
+<property isimportant="false" name="abstractResourceName"/>
+<endpoint direction="bidirectional" id="ifdf606bb-c0e7-4b0e-8eac-7c2b1ccd5d7c"/>
+<endpoint direction="bidirectional" id="iebcb12bb-4f49-4e88-b1d4-843c6c169e4f"/>
+<extensions type="com.fnfr.rm.condition"/>
+<propertyCollection name="connectionType" order="0">
+<property isimportant="false" name="id">62dda32c-00ab-2782-138a-093c4da9a349</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="kind">VIRTUAL</property>
+<property isimportant="false" name="shortcut">Virt</property>
+</propertyCollection>
+</link>
+</connectivity>
+</body>
+</tbml>
