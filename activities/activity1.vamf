@@ -12,6 +12,7 @@
       "automation": [
          {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "allowToRunWithOptions": true,
             "parametersList": [
                {
                   "name": "manifestParam1",
@@ -23,6 +24,8 @@
          },
          {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "allowToRunWithOptions": true,
+            "name": "NewNameManifest",
             "parametersList": [
                {
                   "name": "manifestParam2",
