@@ -8,7 +8,19 @@
       "name": "Topology 1",
       "actionTitle":"Reserve",
       "description": "Create an immediate reservation on the topology",
-      "reservationDuration":""
+      "reservationDuration":"",
+      "automation": [
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "parameteres": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         }
+      ]
     }]
 }
-
