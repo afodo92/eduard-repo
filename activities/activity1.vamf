@@ -12,7 +12,7 @@
       "automation": [
          {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
-            "parameters": [
+            "parametersList": [
                {
                   "name": "manifestParam1",
                   "value": "testValue1",
