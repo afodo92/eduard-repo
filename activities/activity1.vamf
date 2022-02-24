@@ -23,7 +23,7 @@
             ]
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
