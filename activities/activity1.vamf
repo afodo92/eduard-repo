@@ -20,6 +20,17 @@
                   "description": "Test Description" 
                }
             ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "parametersList": [
+               {
+                  "name": "manifestParam2",
+                  "value": "testValue2",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
          }
       ]
     }]
