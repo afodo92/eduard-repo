@@ -23,7 +23,7 @@
             ]
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
@@ -37,9 +37,7 @@
          }
       ],
     "startupTasks": [
-      {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
-      }
+     
       ],
     "teardownTasks": [
       {
