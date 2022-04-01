@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>abs nest ancestor</name>
+<description/>
+<isSharedAccess>false</isSharedAccess>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="0359025a-064e-461b-a89b-270ff781f8a1" id="ia56f8e0a-f539-4ce6-b59a-93180e3bb6f0" shared="true" type="device">
+<property isimportant="false" name="name">nested-temp1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=0359025a-064e-461b-a89b-270ff781f8a1</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[nested-temp1]</extensions>
+<boundary height="100" width="100" x="545" y="141.00000000000003"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="2d94c733-7a64-4982-820b-c2564a3cb33d" id="id07c9dab-daf9-4763-9203-9359426eb91b" shared="true" type="device">
+<property isimportant="false" name="name">nested-temp3</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2d94c733-7a64-4982-820b-c2564a3cb33d</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId">ia56f8e0a-f539-4ce6-b59a-93180e3bb6f0</property>
+<property isimportant="false" name="hostResource_parentType">ANCESTOR</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[nested-temp3]</extensions>
+<boundary height="100" width="100" x="545" y="336"/>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
