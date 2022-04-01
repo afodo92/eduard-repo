@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>abs nest missing middle</name>
+<description/>
+<isSharedAccess>false</isSharedAccess>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="i9e1cfed1-abdf-411e-b131-85e657b107c5" id="i9e1cfed1-abdf-411e-b131-85e657b107c5" shared="false" type="group">
+<property isimportant="false" name="name">abs 1 Group</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="collapsed"/>
+<boundary height="395" width="140" x="653" y="156"/>
+<resource guid="2958b52f-01a4-42cc-a824-6580f1aeb7be" id="ie35b1198-751a-4bd5-8ba1-47833186eaaa" shared="true" type="device">
+<property isimportant="false" name="name">abs 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2958b52f-01a4-42cc-a824-6580f1aeb7be</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[nested-temp1]</extensions>
+<boundary height="100" width="100" x="20" y="35.00000000000003"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="1921d01b-dbf2-4c1a-bc8a-8a16cb7b5935" id="i59512bf7-8102-42c0-9c01-2b101b9ee719" shared="true" type="device">
+<property isimportant="false" name="name">abs 3</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=1921d01b-dbf2-4c1a-bc8a-8a16cb7b5935</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[nested-temp3]</extensions>
+<boundary height="100" width="100" x="20" y="275"/>
+<property name="inventoryName"/>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
