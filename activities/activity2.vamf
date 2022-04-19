@@ -4,11 +4,93 @@
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
    "topology": [{
-      "name": "Topology 2",
+      "name": "Topology 1",
       "actionTitle":"Reserve",
-      "description": "Immediate reservation of two VMs Velocity VM and VDS VM",
-      "reservationDuration":"60",
-      "automation": [],
-      "interaction":[]
+      "description": "Create an immediate reservation on the topology",
+      "reservationDuration":"",
+      "automation": [
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing_with_headline.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing_with_headline.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing2.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing2.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "name": "astasdasdasd"  
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "name": "astasdasdasd222222"  
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         }
+      ],
+    "startupTasks": [
+     
+      ],
+    "teardownTasks": [
+      {
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+      }
+      ]
     }]
 }
