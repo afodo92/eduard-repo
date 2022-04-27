@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<testCase version="8.7.0.202112151246" includeInRun="No" includeIssueInRun="Yes">
+    <general>
+        <rendering testCaseId="InitialVersionTestCaseID" testCaseName="InitialVersionTestCaseName"/>
+        <documentation>headline_master</documentation>
+        <owner>MasterChangeOwner</owner>
+        <isProcedureLibrary>true</isProcedureLibrary>
+        <language>Python</language>
+    </general>
+    <execution executionTimeout="3600" defaultStepTimeout="60" renderCommentsIntoIssues="true" estimatedExecutionTime="1210" autoUpdateExecutionTime="false">
+        <parameters version="8.7.0.202112151246">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <param1>asdas</param1>
+                </parameters>
+            </parameters>
+        </parameters>
+        <forceGlobal>true</forceGlobal>
+        <discardProfile>false</discardProfile>
+    </execution>
+    <requirements>
+        <requirement key="rer1">value</requirement>
+        <requirement key="asdasdas">value</requirement>
+        <requirement key="sdfasg">asdasd</requirement>
+    </requirements>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="d9871c53-3c31-4889-92a1-fe4648ba8581" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>testVar = param(&apos;testParam&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="7c25c110-6efb-455f-9ca0-262638fbb739" action="sleep">
+                    <command>
+                        <body>60</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="91a572e4-f02c-4783-8cbb-d3f73a56aa4e" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(testVar)</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="none">
+                                    <extractorProperties type="com.fnfr.svt.documents.EmptyExtractorPropertyGroup"/>
+                                </extractorInfo>
+                                <processorInfo ruleType="assert">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
+                                        <expression>1 == 1</expression>
+                                        <actionsWhenTrue>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
+                                                    <message>Param Value is [testVar]</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="PassTestIfNotAlreadyFailed">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenTrue>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+            <response>{}</response>
+        </item>
+    </procedures>
+</testCase>
