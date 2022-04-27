@@ -28,7 +28,7 @@
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
          },
          {
-            "testPath": "my_project/test_cases/param.fftc",
+            "testPath": "main/my_project/test_cases/param.fftc",
             "addRepositoryNamePrefix": "false",
             "parametersList": [
                {
@@ -39,7 +39,7 @@
             ]
          },
          {
-            "testPath": "my_project/test_cases/param.fftc",
+            "testPath": "main/my_project/test_cases/param.fftc",
             "addRepositoryNamePrefix": "false",
             "parametersList": [
                {
