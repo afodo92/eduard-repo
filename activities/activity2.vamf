@@ -26,6 +26,26 @@
          },
          {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/param.fftc",
+            "parametersList": [
+               {
+                  "name": "testParam",
+                  "type": "TEXT",
+                  "value": "value1"
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/param.fftc",
+            "parametersList": [
+               {
+                  "name": "testParam",
+                  "type": "TEXT",
+                  "value": "value2"
+               }
+            ]
          }
       ],
     "startupTasks": [
