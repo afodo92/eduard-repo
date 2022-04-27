@@ -28,7 +28,7 @@
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
          },
          {
-            "testPath": "main/test_project/param.fftc",
+            "testPath": "main/base_velo/test1.fftc",
             "addRepositoryNamePrefix": "false",
             "parametersList": [
                {
@@ -39,7 +39,7 @@
             ]
          },
          {
-            "testPath": "main/test_project/param.fftc",
+            "testPath": "main/base_velo/test1.fftc",
             "addRepositoryNamePrefix": "false",
             "parametersList": [
                {
