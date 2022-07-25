@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Session Topology</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="27d772e1-52e0-4f36-a048-a02f13f83dd4" id="i2f868a0b-a8e6-42d2-b590-b0c4a8603cc6" shared="true" type="device">
+<property isimportant="false" name="name">Server1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=27d772e1-52e0-4f36-a048-a02f13f83dd4</property>
+<property isimportant="false" name="isIconVisible"/>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="color">WHITE</property>
+<property isimportant="false" name="borderColor">SILVER</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Server1]</extensions>
+<extensions type="com.fnfr.itest.session" xs:namespace="com.fnfr.itest.session">
+<session name="new_session" provider="com.fnfr">
+<id>49cf54c9-ee50-4487-8050-35780cd5d6eb</id>
+<isInherited>false</isInherited>
+<isDisabled>false</isDisabled>
+<sessionProfile version="9.1.0">
+<language>Python</language>
+<baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+<baseProfile/>
+<standalone>true</standalone>
+<sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties">
+<ipAddress inherit="false">127.0.0.1</ipAddress>
+<user inherit="false">root</user>
+<password inherit="false">iRyLc4KQj80=</password>
+</sessionProperties>
+<agentRequirements inherit="true">
+<requirement/>
+</agentRequirements>
+</sessionProfile>
+</session>
+</extensions>
+<boundary height="72" width="200" x="280" y="288"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="27d772e1-52e0-4f36-a048-a02f13f83dd4" id="i6c6d8f79-5c0f-4868-9732-54309b2afcc9" shared="true" type="device">
+<property isimportant="false" name="name">Server1 (2)</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=27d772e1-52e0-4f36-a048-a02f13f83dd4</property>
+<property isimportant="false" name="isIconVisible"/>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="color">WHITE</property>
+<property isimportant="false" name="borderColor">SILVER</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Server1]</extensions>
+<boundary height="72" width="200" x="520" y="288"/>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
