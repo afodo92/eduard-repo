@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Orch Change Template</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="569a910d-45f8-492d-a867-b7b7742ad28b" id="ieb5d1b03-4679-4f22-954f-678e7af7310d" shared="true" type="device">
+<property isimportant="false" name="name">S2-Change</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=569a910d-45f8-492d-a867-b7b7742ad28b</property>
+<property isimportant="false" name="isIconVisible"/>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">27d772e1-52e0-4f36-a048-a02f13f83dd4</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="color">WHITE</property>
+<property isimportant="false" name="borderColor">SILVER</property>
+<boundary height="72" width="200" x="502" y="202"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
