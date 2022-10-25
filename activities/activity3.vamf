@@ -3,6 +3,7 @@
    "shortDescription": "Test Activity on eduard-repo in master branch. Updated after upgrade",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
+   "priority": 51,
    "topology": [
 {
       "name": "Topology 1",
