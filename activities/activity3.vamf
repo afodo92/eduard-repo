@@ -61,7 +61,7 @@
          },
          {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
-            "name": "astasdasdasd"  
+            "name": "astasdasdasd",  
             "allowToRunWithOptions": true,
             "parametersList": [
                {
@@ -74,7 +74,7 @@
          },
          {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
-            "name": "astasdasdasd222222"  
+            "name": "astasdasdasd222222",  
             "allowToRunWithOptions": true,
             "parametersList": [
                {
