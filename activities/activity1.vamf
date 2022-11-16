@@ -1,6 +1,6 @@
 {
    "name":"Activity 1 - Repo 1",
-   "shortDescription": "Test Activity on eduard-repo in master branch. Updated after upgrade",
+   "shortDescription": "Test Activity on eduard-repo in master branch. Updated in AUT_STD mode",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
    "priority": 50,
