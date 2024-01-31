@@ -1,10 +1,17 @@
 {
-    "name": "Test Repo for Aut Standard verification",
+    "name": "Custom Repo for testing",
     "version": "R1",
-    "description": "Custom Description Here.",
+    "description": "Testing in Aut Standard Mode.",
     "icon": "",
     "dependencies": {
+        "tas_version": "23.4.1.2",
+        "ts_version": "23.4.1.8",
+        "official_suite_version": "23.4.1.8",
+        "wireshark_version": "4.0.6",
+        "tshark_version": "4.0.6",
+        "velocity_version": "9.4.0"
     },
-    "availableInAutSvrStdMode": true,
+    "license": "VELOCITY_5GC_AAP",
+	"availableInAutSvrStdMode": true,
     "allowAddingRemoteReposInAutSvrStdMode": true
 }
