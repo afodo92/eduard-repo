@@ -1,0 +1,17 @@
+{
+    "name": "Custom Test Repo",
+    "version": "R1",
+    "description": "For testing Aut Std mode.",
+    "icon": "",
+    "dependencies": {
+        "tas_version": "23.4.1.2",
+        "ts_version": "23.4.1.8",
+        "official_suite_version": "23.4.1.8",
+        "wireshark_version": "4.0.6",
+        "tshark_version": "4.0.6",
+        "velocity_version": "9.4.0"
+    },
+    "license": "VELOCITY_5GC_AAP",
+	"availableInAutSvrStdMode": true,
+    "allowAddingRemoteReposInAutSvrStdMode": true
+}
