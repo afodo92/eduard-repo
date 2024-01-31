@@ -1,6 +1,6 @@
 {
     "name": "Custom Repo",
-    "license": "VELOCITY_OCT_WFA_DM",
+    "license": "VELOCITY_GIT_SCM",
     "availableInAutSvrStdMode": true,
     "allowAddingRemoteReposInAutSvrStdMode": false
 }
