@@ -1,0 +1,6 @@
+{
+    "name": "Custom Repo",
+    "license": "VELOCITY_OCT_WFA_DM",
+    "availableInAutSvrStdMode": true,
+    "allowAddingRemoteReposInAutSvrStdMode": false
+}
