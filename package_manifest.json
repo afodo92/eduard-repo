@@ -4,7 +4,7 @@
     "description": "Custom Description Here.",
     "icon": "",
     "dependencies": {
-    }
-	  "availableInAutSvrStdMode": true,
+    },
+    "availableInAutSvrStdMode": true,
     "allowAddingRemoteReposInAutSvrStdMode": true
 }
