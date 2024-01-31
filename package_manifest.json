@@ -1,7 +1,7 @@
 {
-    "name": "Custom Repo for testing",
+    "name": "Custom Repo for Testing",
     "version": "R1",
-    "description": "Testing in Aut Standard Mode.",
+    "description": "For testing in Aut Std mode.",
     "icon": "",
     "dependencies": {
         "tas_version": "23.4.1.2",
