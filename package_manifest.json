@@ -11,6 +11,7 @@
         "tshark_version": "4.0.6",
         "velocity_version": "9.4.0"
     },
+    "license": "VELOCITY_5GC_AAP",
 	"availableInAutSvrStdMode": true,
     "allowAddingRemoteReposInAutSvrStdMode": true
 }
