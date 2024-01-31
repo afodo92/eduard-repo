@@ -1,0 +1,10 @@
+{
+    "name": "Test Repo for Aut Standard verification",
+    "version": "R1",
+    "description": "Custom Description Here.",
+    "icon": "",
+    "dependencies": {
+    }
+	  "availableInAutSvrStdMode": true,
+    "allowAddingRemoteReposInAutSvrStdMode": true
+}
