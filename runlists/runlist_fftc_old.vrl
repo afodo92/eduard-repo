@@ -1,0 +1,84 @@
+{
+  "general": {
+    "autoExtendReservation": true,
+    "callbackURL": null,
+    "createdDate": 0,
+    "customParameterTypes": [
+      
+    ],
+    "detailLevel": "ALL_ISSUES_ERROR_STEPS",
+    "ignoredRequirements": [
+      
+    ],
+    "parameterFilePath": null,
+    "parameters": [
+      
+    ],
+    "requirements": [
+      
+    ],
+    "reservationId": null,
+    "topologyId": null,
+    "topologyPath": null,
+    "topologyVersionId": null
+  },
+  "main": {
+    "items": [],
+    "sections": [
+      {
+        "customParameterTypes": [
+          
+        ],
+        "files": [
+          
+        ],
+        "ignoredRequirements": [
+          
+        ],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [
+          
+        ],
+        "path": "eduard-repo/test_cases/test1.fftc",
+        "requirements": [
+          
+        ],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
+      },
+      {
+        "customParameterTypes": [
+          
+        ],
+        "files": [
+          
+        ],
+        "ignoredRequirements": [
+          
+        ],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [
+          
+        ],
+        "path": "eduard-repo/test_cases/test1.fftc",
+        "requirements": [
+          
+        ],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
+      }
+    ],
+    "runMode": "SEQUENTIAL",
+    "terminateOnItemFail": false
+  }
+}
