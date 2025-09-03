@@ -1,0 +1,50 @@
+{
+	"main": {
+		"sections": [
+			{
+				"sectionId": "1",
+				"sectionName": "Section 1",
+				"items": [
+					{
+						"path": "eduard-repo/test_cases/test1.fftc",
+						"parameters": [],
+						"requirements": [],
+						"ignoredRequirements": []
+					},
+					{
+						"path": "eduard-repo/test_cases/test1.fftc",
+						"parameters": [],
+						"requirements": [],
+						"ignoredRequirements": []
+					}
+				]
+			},
+			{
+				"sectionId": "2",
+				"sectionName": "Section 2",
+				"terminateOnItemFail": false,
+				"topologyId": "",
+				"items": [
+					{
+						"path": "eduard-repo/test_cases/test1.fftc",
+						"parameters": [],
+						"requirements": [],
+						"ignoredRequirements": []
+					},
+					{
+						"path": "eduard-repo/test_cases/test1.fftc",
+						"parameters": [],
+						"requirements": [],
+						"ignoredRequirements": []
+					}
+				]
+			}
+		],
+		"terminateOnItemFail": false
+	},
+	"general": {
+		"parameters": [],
+		"requirements": [],
+		"ignoredRequirements": []
+	}
+}
