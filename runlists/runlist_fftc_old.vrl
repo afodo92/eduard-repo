@@ -1,83 +1,23 @@
 {
   "general": {
-    "autoExtendReservation": true,
-    "callbackURL": null,
-    "createdDate": 0,
-    "customParameterTypes": [
-      
-    ],
-    "detailLevel": "ALL_ISSUES_ERROR_STEPS",
-    "ignoredRequirements": [
-      
-    ],
-    "parameterFilePath": null,
-    "parameters": [
-      
-    ],
-    "requirements": [
-      
-    ],
-    "reservationId": null,
-    "topologyId": null,
-    "topologyPath": null,
-    "topologyVersionId": null
+    "parameters": [],
+    "requirements": [],
+    "ignoredRequirements": []
   },
   "main": {
     "items": [
       {
-        "customParameterTypes": [
-          
-        ],
-        "files": [
-          
-        ],
-        "ignoredRequirements": [
-          
-        ],
-        "itemId": null,
-        "parameterFilePath": null,
-        "parameters": [
-          
-        ],
         "path": "eduard-repo/test_cases/test1.fftc",
-        "requirements": [
-          
-        ],
-        "reservationId": null,
-        "testbed": null,
-        "topologyName": null,
-        "topologyId": null,
-        "topologyVersionId": null,
-        "type": "SCRIPT"
+        "requirements": [],
+        "parameters": [],
+        "ignoredRequirements": []
       },
       {
-        "customParameterTypes": [
-          
-        ],
-        "files": [
-          
-        ],
-        "ignoredRequirements": [
-          
-        ],
-        "itemId": null,
-        "parameterFilePath": null,
-        "parameters": [
-          
-        ],
+        "parameters": [],
         "path": "eduard-repo/test_cases/test1.fftc",
-        "requirements": [
-          
-        ],
-        "reservationId": null,
-        "testbed": null,
-        "topologyName": null,
-        "topologyId": null,
-        "topologyVersionId": null,
-        "type": "SCRIPT"
+        "requirements": [],
+        "ignoredRequirements": []
       }
-    ],
-    "runMode": "SEQUENTIAL",
-    "terminateOnItemFail": false
+    ]
   }
 }
