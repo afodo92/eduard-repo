@@ -9,4 +9,4 @@ atribute = 'awesome'
 final_value = first_value * second_value
 
 print (final_value)
-print ('iTest is quite ' + str(atribute) + '.')
+print ('iTest is very very ' + str(atribute) + '.')
