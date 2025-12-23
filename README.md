@@ -1,3 +1,2 @@
 # eduard-repo
-Test Repository
-New line in readme file
+Test Repository - removed last line
