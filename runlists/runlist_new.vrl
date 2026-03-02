@@ -6,13 +6,13 @@
 				"sectionName": "Section 1",
 				"items": [
 					{
-						"path": "eduard-repo/test_cases/test1.fftc",
+						"path": "eduard-repo/test_cases/hello.py",
 						"parameters": [],
 						"requirements": [],
 						"ignoredRequirements": []
 					},
 					{
-						"path": "eduard-repo/test_cases/test1.fftc",
+						"path": "eduard-repo/test_cases/hello.py",
 						"parameters": [],
 						"requirements": [],
 						"ignoredRequirements": []
@@ -26,13 +26,13 @@
 				"topologyId": "",
 				"items": [
 					{
-						"path": "eduard-repo/test_cases/test1.fftc",
+						"path": "eduard-repo/test_cases/hello.py",
 						"parameters": [],
 						"requirements": [],
 						"ignoredRequirements": []
 					},
 					{
-						"path": "eduard-repo/test_cases/test1.fftc",
+						"path": "eduard-repo/test_cases/hello.py",
 						"parameters": [],
 						"requirements": [],
 						"ignoredRequirements": []
