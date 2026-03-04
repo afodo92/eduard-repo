@@ -7,14 +7,14 @@
   "main": {
     "items": [
       {
-        "path": "eduard-repo/test_cases/test1.fftc",
+        "path": "eduard-repo/test_cases/hello.py",
         "requirements": [],
         "parameters": [],
         "ignoredRequirements": []
       },
       {
         "parameters": [],
-        "path": "eduard-repo/test_cases/test1.fftc",
+        "path": "eduard-repo/test_cases/hello.py",
         "requirements": [],
         "ignoredRequirements": []
       }
